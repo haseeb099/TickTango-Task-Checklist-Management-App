@@ -30,19 +30,12 @@ Built from scratch using **React Native + Expo (SDK 52)** – runs on iOS, Andro
 - **Vector Icons** (Ionicons)
 - **Safe Area & Status Bar Handling**
 
-## Screenshots (Add These Later!)
-
-| Home Dashboard | Task List | Add Task | Image Proof |
-|----------------|---------|--------|-----------|
-| ![Home] | ![Tasks] | ![Add] | ![Proof] |
-
-*(Replace with real screenshots after running the app)*
 
 ## How to Run
 
 ### 1. Clone & Install
 ## ```bash
-git clone https://github.com/haseeb099/TickTango.git
+git clone
 cd TickTango
 npm install
 # or
