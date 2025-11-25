@@ -1,11 +1,85 @@
-# Sample Snack app
+# TickTango – Smart Task & Checklist App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A **beautiful, modern, and fully functional** React Native checklist/task management mobile app built with **Expo**. Perfect for team workflows, onboarding, compliance, safety checks, or daily operations.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Features role-based tasks, due dates, image proof submission, approvals, categories, priorities, and a clean Material Design UI.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+Built from scratch using **React Native + Expo (SDK 52)** – runs on iOS, Android, and Web.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Features
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- **Role-Based Tasks** (Employee, Supervisor, Manager)
+- **Task Categories** (HR, Operations, Finance, Compliance, Safety)
+- **Priority Levels** (High, Medium, Low)
+- **Due Dates** with date picker
+- **Image Proof Upload** (take photo or choose from gallery)
+- **Task Completion & Approval Workflow**
+- **Rich Statistics Dashboard**
+- **Search & Filter** tasks
+- **Smooth Animations & Modern UI** (cards, shadows, gradients)
+- **100% Offline-First Ready**
+- **Dark Mode Ready** (easy to enable)
+
+## Tech Stack
+
+- **React Native** + **Expo** (Managed Workflow)
+- **React Navigation** (Tab View + Stacks)
+- **React Native Paper** (UI components)
+- **Expo Image Picker**
+- **@react-native-community/datetimepicker**
+- **Vector Icons** (Ionicons)
+- **Safe Area & Status Bar Handling**
+
+## Screenshots (Add These Later!)
+
+| Home Dashboard | Task List | Add Task | Image Proof |
+|----------------|---------|--------|-----------|
+| ![Home] | ![Tasks] | ![Add] | ![Proof] |
+
+*(Replace with real screenshots after running the app)*
+
+## How to Run
+
+### 1. Clone & Install
+## ```bash
+git clone https://github.com/haseeb099/TickTango.git
+cd TickTango
+npm install
+# or
+yarn install
+
+2. Start the App
+Bashnpm start
+# or
+expo start
+Then:
+
+Scan QR code with Expo Go app (iOS/Android)
+Press a for Android emulator
+Press i for iOS simulator
+Press w for web
+
+Project Structure
+textTickTango/
+├── App.js              → Main app with tabs & navigation
+├── assets/             → Icons, splash, adaptive icons
+├── components/         → Reusable UI components (add later)
+├── screens/            → Home, Tasks, Stats, AddTask (you can split later)
+├── package.json
+├── app.json            → Expo config
+└── README.md
+Future Ideas (You Can Build On This!)
+
+Firebase / Supabase backend
+Push notifications for due tasks
+Team collaboration & real-time sync
+Export reports (PDF)
+Dark mode toggle
+Biometric login
+
+Author
+Muhammad Haseeb Rafique
+Full-Stack WEB & Mobile Developer
+Portfolio-ready React Native project
+License
+MIT License – feel free to use for learning, portfolios, or startup ideas!
